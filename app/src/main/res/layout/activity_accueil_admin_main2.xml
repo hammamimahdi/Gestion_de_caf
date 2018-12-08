@@ -19,7 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Ajouter un produit" />
+            android:text="Ajouter un produit"
+            android:onClick="bu_ajouter"/>
     </LinearLayout>
 
     <LinearLayout
@@ -33,7 +34,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Modifier un produit" />
+            android:text="Modifier un produit"
+            android:onClick="bu_modifier"/>
     </LinearLayout>
 
     <LinearLayout
@@ -47,6 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Supprimer un produit" />
+            android:text="Supprimer un produit"
+            android:onClick="by_supprimer"/>
     </LinearLayout>
 </LinearLayout>

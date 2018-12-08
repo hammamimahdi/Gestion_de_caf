@@ -33,7 +33,9 @@
         </activity>
         <activity android:name=".loginadminMain2Activity" />
         <activity android:name=".accueil_adminMain2Activity" />
-        <activity android:name=".ajout_Main2Activity"></activity>
+        <activity android:name=".ajout_Main2Activity" />
+        <activity android:name=".modifier_Main2Activity" />
+        <activity android:name=".supprimer_Main2Activity"></activity>
     </application>
 
 </manifest>
