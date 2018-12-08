@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".different_espace">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/espace_client"
+            android:layout_margin="50dp"
+            android:layout_weight="1"
+            android:text="espace_client"
+            android:textColor="@color/noir"
+            android:textSize="40dp"
+            android:onClick="tx_client"
+/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/espace_administrateur"
+            android:layout_margin="50dp"
+            android:layout_weight="1"
+            android:text="@string/espace_administrateur"
+            android:textColor="@color/noir"
+            android:textSize="40dp"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accueil"
+    android:orientation="vertical"
+    android:background="@drawable/bacground">
+
+
+    <TextView
+        android:id="@+id/Bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="bienvenue au cafe eddokena"
+        android:textColor="#ff4081"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        tools:layout_marginTop="50dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="407dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="244dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/cafe" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="224dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:text="Ce café se trouve dans la rue de la plage :"
+                android:textColor="@color/noir"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text=" Elle contien :
+      * 7 telévision
+      * WIFI
+      * Climatiseur
+      * MIXTE "
+                android:textColor="@color/noir"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                android:text="@string/menu"
+                android:onClick="bu_menu"/>
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                android:text="@string/retour"
+                android:onClick="bu_retour"/>
+</LinearLayout>
+</LinearLayout>

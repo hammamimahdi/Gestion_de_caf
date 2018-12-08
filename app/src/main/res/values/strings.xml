@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">login</string>
+    <string name="mot_de_passe">mot_de_passe</string>
+    <string name="connexion">connexion</string>
+    <string name="annuler">annuler</string>
+    <string name="acheter">acheter</string>
+    <string name="retour_a_menu">retour_a_menu</string>
+    <string name="prix_2500_dt">prix 2500 dt</string>
+    <string name="prix_3000_dt">prix 3000 dt</string>
+    <string name="gestion_de_caf">gestion de caf</string>
+
+    <string name="menu">menu</string>
+    <string name="retour">retour</string>
+    <string name="expresse">expresse</string>
+    <string name="cappucin">cappucin</string>
+    <string name="direct">direct</string>
+    <string name="les_boisson">les_boisson</string>
+    <string name="eau">Eau</string>
+    <string name="boisson_gazeau">boisson_gazeau</string>
+    <string name="the">the</string>
+    <string name="jus">jus</string>
+    <string name="action_settings">action_settings</string>
+    <string name="title_activity_menu__main2">title_activity_menu__main2</string>
+    <string name="bienvenue_au_cafe_eddokena">bienvenue_au_cafe_eddokena</string>
+    <string name="login_or_password_empty">le login et le mot de passe et obligatoir</string>
+    <string name="ms1">Votre demande est fait avec succes</string>
+    <string name="entrer_votre_login_svp">Entrer votre login SVP</string>
+    <string name="entrer_votre_mot_de_passe_svp">Entrer Votre mot de passe SVP</string>
+    <string name="espace_client">Espace Client</string>
+    <string name="espace_administrateur">espace administrateur</string>
+
+</resources>

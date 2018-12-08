@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bacground"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Login"
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:text="@string/login"
+                android:textColor="@color/noir"
+                android:textSize="27dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/log"
+                android:layout_width="233dp"
+                android:layout_height="92dp"
+                android:hint="@string/entrer_votre_login_svp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mot_de_passe"
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:layout_weight="1"
+                android:text="@string/mot_de_passe"
+                android:textColor="@color/noir"
+                android:textSize="27dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:hint="@string/entrer_votre_mot_de_passe_svp"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:onClick="bu_connexion"
+                android:text="@string/connexion"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+
+                android:onClick="bu_annuler"
+                android:text="@string/annuler"
+
+                tools:ignore="OnClick" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

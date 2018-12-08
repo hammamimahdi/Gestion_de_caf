@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">دخول</string>
+    <string name="mot_de_passe">كلمة السر</string>
+    <string name="connexion">تسجيل دخول</string>
+    <string name="annuler">الغاء</string>
+    <string name="acheter">acheter</string>
+    <string name="retour_a_menu">شراء</string>
+    <string name="prix_2500_dt">السعر 2500 dt</string>
+    <string name="prix_3000_dt">السعر 3000 dt</string>
+    <string name="gestion_de_caf">ادارة مقهى الدكانة</string>
+
+    <string name="menu">القائمة</string>
+    <string name="retour">عودة</string>
+    <string name="expresse">قهوة مركزة</string>
+    <string name="cappucin">قهوة بالحليب</string>
+    <string name="direct">قهوة بالحليب خفيفة</string>
+    <string name="les_boisson">المشروبات</string>
+    <string name="eau">ماء</string>
+    <string name="boisson_gazeau">مشروب غازي</string>
+    <string name="the">شاي</string>
+    <string name="jus">عصير</string>
+    <string name="action_settings">action_settings</string>
+    <string name="title_activity_menu__main2">title_activity_menu__main2</string>
+    <string name="bienvenue_au_cafe_eddokena">مرحبا بك في مقهى الدكانة</string>
+    <string name="login_or_password_empty">الرجاء ادخا المعلومات اللازمة</string>
+    <string name="ms1">طلبك يتم بنجاح</string>
+    <string name="entrer_votre_login_svp">أدخل معلومات تسجيل الدخول الخاصة بك من فضلك</string>
+    <string name="entrer_votre_mot_de_passe_svp">أدخل كلمة المرور الخاصة بك من فضلك</string>
+    <string name="espace_client"> مساحة العملاء</string>
+    <string name="espace_administrateur">مساحة المسؤول</string>
+</resources>

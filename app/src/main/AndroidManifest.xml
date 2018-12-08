@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hammami.mahdi.gestion_de_caf">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/gestion_de_caf"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".accueil" />
+        <activity
+            android:name=".menu_Main2Activity"
+            android:label="@string/title_activity_menu__main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".express_Main2Activity" />
+        <activity android:name=".capucinMain2Activity" />
+        <activity android:name=".directMain2Activity" />
+        <activity android:name=".eauMain2Activity" />
+        <activity android:name=".boisson_gazeauMain2Activity" />
+        <activity android:name=".the" />
+        <activity android:name=".jus" />
+        <activity android:name=".different_espace">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

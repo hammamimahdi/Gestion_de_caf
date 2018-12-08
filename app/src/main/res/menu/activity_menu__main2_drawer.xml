@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="les café">
+
+        </item>
+        <item
+
+            android:id="@+id/Expresse"
+            android:title="@string/expresse"
+            android:onClick="bu_express"
+            />
+        <item
+            android:id="@+id/Cappucin"
+            android:title="@string/cappucin"
+            android:onClick="bu_capucin"
+            />
+        <item
+            android:id="@+id/Direct"
+            android:title="@string/direct"
+            android:onClick="bu_direct"
+            />
+
+    </group>
+
+    <item android:title="@string/les_boisson">
+        <menu>
+            <item
+                android:id="@+id/Eeau"
+                android:title="@string/eau"
+                android:onClick="bu_eau"
+                />
+            <item
+                android:id="@+id/boisson_gazeau"
+                android:title="@string/boisson_gazeau"
+                android:onClick="boisson_gazeau"
+                />
+            <item
+                android:id="@+id/thé"
+                android:title="@string/the"
+                android:onClick="the"
+                />
+            <item
+                android:id="@+id/jus"
+                android:title="@string/jus"
+                android:onClick="jus"
+                />
+        </menu>
+    </item>
+
+</menu>

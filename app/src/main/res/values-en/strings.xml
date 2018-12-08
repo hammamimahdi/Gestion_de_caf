@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">login</string>
+    <string name="mot_de_passe">password</string>
+    <string name="connexion">connexion</string>
+    <string name="annuler">Cancel</string>
+    <string name="acheter">bey</string>
+    <string name="retour_a_menu">back to the menu</string>
+    <string name="prix_2500_dt">price 2500 dt</string>
+    <string name="prix_3000_dt">price 3000 dt</string>
+    <string name="gestion_de_caf">gestion de caf</string>
+
+    <string name="menu">menu</string>
+    <string name="retour">Back</string>
+    <string name="expresse">expresse</string>
+    <string name="cappucin">cappucin</string>
+    <string name="direct">direct</string>
+    <string name="les_boisson">the drinks</string>
+    <string name="eau">water</string>
+    <string name="boisson_gazeau">soft drink</string>
+    <string name="the">tea</string>
+    <string name="jus">juice</string>
+    <string name="action_settings">action_settings</string>
+    <string name="title_activity_menu__main2">title_activity_menu__main2</string>
+    <string name="bienvenue_au_cafe_eddokena">Welcom_au_cafe_eddokena</string>
+    <string name="login_or_password_empty">le login and password must be obligation</string>
+    <string name="ms1">Your request is done successfully</string>
+    <string name="entrer_votre_login_svp">Enter your login please</string>
+    <string name="entrer_votre_mot_de_passe_svp">Enter your password please</string>
+    <string name="espace_client"> customer space</string>
+    <string name="espace_administrateur">administrator space</string>
+</resources>
