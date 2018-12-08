@@ -32,7 +32,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".loginadminMain2Activity" />
-        <activity android:name=".accueil_adminMain2Activity"></activity>
+        <activity android:name=".accueil_adminMain2Activity" />
+        <activity android:name=".ajout_Main2Activity"></activity>
     </application>
 
 </manifest>
