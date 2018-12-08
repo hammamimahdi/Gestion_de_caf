@@ -17,4 +17,9 @@ public class different_espace extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void tx_admin(View view) {
+        Intent intent = new Intent(this, loginadminMain2Activity.class);
+        startActivity(intent);
+    }
 }
