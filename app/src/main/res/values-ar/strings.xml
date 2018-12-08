@@ -27,6 +27,6 @@
     <string name="ms1">طلبك يتم بنجاح</string>
     <string name="entrer_votre_login_svp">أدخل معلومات تسجيل الدخول الخاصة بك من فضلك</string>
     <string name="entrer_votre_mot_de_passe_svp">أدخل كلمة المرور الخاصة بك من فضلك</string>
-    <string name="espace_client"> مساحة العملاء</string>
+    <string name="espace_client"> مساحة الزبائن</string>
     <string name="espace_administrateur">مساحة المسؤول</string>
 </resources>
